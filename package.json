@@ -1,0 +1,26 @@
+{
+  "name": "react-native-image-editor",
+  "version": "0.1.0",
+  "description": "An <ImageEditor /> component that brings image inside to the front of the view for editing.",
+  "main": "ImageEditor.ios.js",
+  "author": "Fuzu Li <lifuzu@gmail.com> (https://github.com/lifuzu)",
+  "files": [
+    "RNImageEditor.xcodeproj",
+    "ImageEditor.ios.js",
+    "README.md",
+    "RNImageEditor/RNThroughWindow.h",
+    "RNImageEditor/RNThroughWindow.m",
+    "RNImageEditor/RNImageEditor.h",
+    "RNImageEditor/RNImageEditor.m",
+    "RNImageEditor/RNImageEditorManager.h",
+    "RNImageEditor/RNImageEditorManager.m"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:lifuzu/react-native-image-editor.git"
+  },
+  "dependencies": {
+    "react": "^0.14.5",
+    "react-native": "^0.22.0"
+  }
+}

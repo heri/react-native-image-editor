@@ -1,0 +1,283 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		624177B21B8E5A4900897A7A /* RNImageEditor.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 624177B11B8E5A4900897A7A /* RNImageEditor.h */; };
+		624177B41B8E5A4900897A7A /* RNImageEditor.m in Sources */ = {isa = PBXBuildFile; fileRef = 624177B31B8E5A4900897A7A /* RNImageEditor.m */; };
+		624177CC1B8E6BBB00897A7A /* RNThroughWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 624177CB1B8E6BBB00897A7A /* RNThroughWindow.m */; };
+		624177CF1B8E6ECA00897A7A /* RNImageEditorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 624177CE1B8E6ECA00897A7A /* RNImageEditorManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		624177AC1B8E5A4900897A7A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				624177B21B8E5A4900897A7A /* RNImageEditor.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		624177AE1B8E5A4900897A7A /* libRNImageEditor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNImageEditor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		624177B11B8E5A4900897A7A /* RNImageEditor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNImageEditor.h; sourceTree = "<group>"; };
+		624177B31B8E5A4900897A7A /* RNImageEditor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNImageEditor.m; sourceTree = "<group>"; };
+		624177CA1B8E6BBB00897A7A /* RNThroughWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNThroughWindow.h; sourceTree = "<group>"; };
+		624177CB1B8E6BBB00897A7A /* RNThroughWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNThroughWindow.m; sourceTree = "<group>"; };
+		624177CD1B8E6ECA00897A7A /* RNImageEditorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNImageEditorManager.h; sourceTree = "<group>"; };
+		624177CE1B8E6ECA00897A7A /* RNImageEditorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNImageEditorManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		624177AB1B8E5A4900897A7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		624177A51B8E5A4900897A7A = {
+			isa = PBXGroup;
+			children = (
+				624177B01B8E5A4900897A7A /* RNImageEditor */,
+				624177AF1B8E5A4900897A7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		624177AF1B8E5A4900897A7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				624177AE1B8E5A4900897A7A /* libRNImageEditor.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		624177B01B8E5A4900897A7A /* RNImageEditor */ = {
+			isa = PBXGroup;
+			children = (
+				624177CD1B8E6ECA00897A7A /* RNImageEditorManager.h */,
+				624177CE1B8E6ECA00897A7A /* RNImageEditorManager.m */,
+				624177CA1B8E6BBB00897A7A /* RNThroughWindow.h */,
+				624177CB1B8E6BBB00897A7A /* RNThroughWindow.m */,
+				624177B11B8E5A4900897A7A /* RNImageEditor.h */,
+				624177B31B8E5A4900897A7A /* RNImageEditor.m */,
+			);
+			path = RNImageEditor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		624177AD1B8E5A4900897A7A /* RNImageEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 624177C21B8E5A4900897A7A /* Build configuration list for PBXNativeTarget "RNImageEditor" */;
+			buildPhases = (
+				624177AA1B8E5A4900897A7A /* Sources */,
+				624177AB1B8E5A4900897A7A /* Frameworks */,
+				624177AC1B8E5A4900897A7A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNImageEditor;
+			productName = RNImageEditor;
+			productReference = 624177AE1B8E5A4900897A7A /* libRNImageEditor.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		624177A61B8E5A4900897A7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = weimed;
+				TargetAttributes = {
+					624177AD1B8E5A4900897A7A = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 624177A91B8E5A4900897A7A /* Build configuration list for PBXProject "RNImageEditor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 624177A51B8E5A4900897A7A;
+			productRefGroup = 624177AF1B8E5A4900897A7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				624177AD1B8E5A4900897A7A /* RNImageEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		624177AA1B8E5A4900897A7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				624177CC1B8E6BBB00897A7A /* RNThroughWindow.m in Sources */,
+				624177B41B8E5A4900897A7A /* RNImageEditor.m in Sources */,
+				624177CF1B8E6ECA00897A7A /* RNImageEditorManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		624177C01B8E5A4900897A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		624177C11B8E5A4900897A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		624177C31B8E5A4900897A7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SRCROOT}/node_modules/react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/Libraries/**",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../react-native/Libraries/Image/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		624177C41B8E5A4900897A7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SRCROOT}/node_modules/react-native/React/**",
+					"$(SRCROOT)/node_modules/react-native/Libraries/**",
+					"$(SRCROOT)/../../React/**",
+					"$(SRCROOT)/../react-native/React/**",
+					"$(SRCROOT)/../react-native/Libraries/Image/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		624177A91B8E5A4900897A7A /* Build configuration list for PBXProject "RNImageEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624177C01B8E5A4900897A7A /* Debug */,
+				624177C11B8E5A4900897A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		624177C21B8E5A4900897A7A /* Build configuration list for PBXNativeTarget "RNImageEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				624177C31B8E5A4900897A7A /* Debug */,
+				624177C41B8E5A4900897A7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 624177A61B8E5A4900897A7A /* Project object */;
+}
