@@ -15,6 +15,7 @@
     "RNImageEditor/RNImageEditorManager.h",
     "RNImageEditor/RNImageEditorManager.m"
   ],
+  "nativePackage": true,
   "repository": {
     "type": "git",
     "url": "git@github.com:lifuzu/react-native-image-editor.git"
