@@ -56,3 +56,7 @@ Error: EMFILE: too many open files
 ```
 
 **NOTE**: You probably need to enlarge max open files on mac, please refer to this issue: https://github.com/gruntjs/grunt-contrib-copy/issues/21
+
+## Who is behind this
+
+Heri is a software engineer, photographer, father and Montréaler. Building in the open — see more projects at [studiozenkai.com](https://studiozenkai.com).
